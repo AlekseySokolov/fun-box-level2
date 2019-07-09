@@ -4,7 +4,7 @@
 [Create React App](https://github.com/facebook/create-react-app)<br />
 Управление состоянием [Redux](https://github.com/reduxjs/redux)<br/>
 <br />
-[Demo in CodeSandBox](https://codesandbox.io/s/count-char-iinxk)
+[Demo in CodeSandBox](https://codesandbox.io/s/fun-box-level2-hbx4m)
 
 
 1. Фон занимает всю площадь экрана, блок находится по центру вертикально и

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2:100&display=swap&subset=cyrillic');
 
+.main-wrap {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    background-repeat: repeat;
+}
 .main-page {
     width: 100%;
     height: 100%;
@@ -10,15 +16,24 @@
 }
 
 @media screen and (max-width: 1200px){
-    .main-page {
+    .main-wrap {
         height: min-content;
-        padding: 50px 0;
     }
 }
 
 @media screen and (max-width: 1200px){
     .main-page {
-        height: min-content;
-        padding: 50px 0;
+        padding: 30px 0;
     }
 }
+
+@media screen and (min-height: 1200px){
+    .main-wrap {
+        height: 100%;
+    }
+}
+
+
+
+
+

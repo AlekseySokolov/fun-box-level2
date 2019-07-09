@@ -8,4 +8,3 @@ const reducers = {
 const rootReducer = combineReducers(reducers);
 
 export let store = createStore(rootReducer);
-store.subscribe(() => console.log(store.getState()));
